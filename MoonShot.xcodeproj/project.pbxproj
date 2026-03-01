@@ -18,6 +18,7 @@
 		3991627A2F4D5556006781A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 399162662F4D5556006781A0 /* Assets.xcassets */; };
 		3991627B2F4D5556006781A0 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 399162682F4D5556006781A0 /* astronauts.json */; };
 		3991627C2F4D5556006781A0 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 3991626E2F4D5556006781A0 /* missions.json */; };
+		3991627E2F53D872006781A0 /* CrewMembersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991627D2F53D872006781A0 /* CrewMembersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3991626E2F4D5556006781A0 /* missions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		3991626F2F4D5556006781A0 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		399162702F4D5556006781A0 /* MoonShotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShotApp.swift; sourceTree = "<group>"; };
+		3991627D2F53D872006781A0 /* CrewMembersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewMembersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				3991626C2F4D5556006781A0 /* ContentView.swift */,
 				3991626D2F4D5556006781A0 /* Mission.swift */,
 				3991626F2F4D5556006781A0 /* MissionView.swift */,
+				3991627D2F53D872006781A0 /* CrewMembersView.swift */,
 				399162702F4D5556006781A0 /* MoonShotApp.swift */,
 				399162662F4D5556006781A0 /* Assets.xcassets */,
 			);
@@ -161,6 +164,7 @@
 				399162762F4D5556006781A0 /* ContentView.swift in Sources */,
 				399162772F4D5556006781A0 /* Mission.swift in Sources */,
 				399162782F4D5556006781A0 /* MissionView.swift in Sources */,
+				3991627E2F53D872006781A0 /* CrewMembersView.swift in Sources */,
 				399162792F4D5556006781A0 /* MoonShotApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
