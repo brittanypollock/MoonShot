@@ -16,6 +16,8 @@ struct MissionView: View {
     let mission: Mission
     let crew: [CrewMember]
     
+    let missions: [Mission] = Bundle.main.decode("missions.json")
+    
     var body: some View {
         ScrollView {
             VStack {
@@ -35,6 +37,12 @@ struct MissionView: View {
                     Text("Mission Highlights")
                         .font(.title.bold())
                         .padding(.bottom, 5)
+                    
+                    Text(mission.formattedLaunchDate)
+                        .font(.headline)
+                        .foregroundStyle(.gray)
+                    
+                    Spacer()
                     
                     Text(mission.description)
                     
